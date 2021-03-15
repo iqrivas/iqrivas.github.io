@@ -73,11 +73,13 @@ body {
   a {
     text-decoration: underline;
     color: black;
+    
   }
 
   .project__img {
     height: 200px;
     width:auto;
+    border: 1px solid black;
   }
 
   .main__img {
