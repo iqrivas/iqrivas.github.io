@@ -74,4 +74,16 @@ body {
     text-decoration: underline;
     color: black;
   }
+
+  .project__img {
+    height: 200px;
+    width:auto;
+  }
+
+  .main__img {
+    height: 200px;
+    width:auto;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
   

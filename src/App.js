@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import './css/main.css';
 import {handleTab, handleEmail} from './main.js';
+import altarpterio from './images/altarpterio.png';
+import bettyb from './images/bettyb.png';
+import iqrivas from './images/iqrivas.jfif';
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
 
       <section className="main">
         <div id="inicio_panel" className="main__panel">
+          <img className="main__img" src={iqrivas} alt="Denisse Rivas"/>
           <div className="main__panelcard--intro">¡Hola! Soy Denisse Rivas</div>
           <div className="main__panelcard--intro">
             Mi carrera profesional se resume en resolver problemas a través del
@@ -30,8 +34,15 @@ function App() {
         </div>
         <div id="proyectos_panel" className="main__panel--hidden">
           <div className="main__panelcard">
+          <img className="project__img" src={bettyb} alt="Proyecto Betty B"/>
             <a href="https://www.bettybarreto.com" target="_blank" rel="noreferrer">
               Betty Barreto
+            </a>
+          </div>
+          <div className="main__panelcard">
+            <img className="project__img" src={altarpterio} alt="Proyecto Altar de Pterio"/>
+            <a href="https://iqrivas.github.io/altardepterio" target="_blank" rel="noreferrer">
+              El Altar de Pterio
             </a>
           </div>
         </div>
