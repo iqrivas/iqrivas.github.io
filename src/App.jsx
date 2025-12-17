@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Tabs from './components/Tabs';
-import Panel from './components/Panel';
+import Tabs from 'components/Tabs';
+import Panel from 'components/Panel';
 
 function App() {
   const [activeTab, setActiveTab] = useState('inicio');
